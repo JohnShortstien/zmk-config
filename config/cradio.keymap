@@ -41,7 +41,7 @@
     // Other configurations specific to your board
 };
 
-{
+/{
     behaviors {
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
