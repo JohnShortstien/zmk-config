@@ -10,32 +10,32 @@
 
     // Define GPIO pins for each key
     key_pins {
-        pin_1 = <&gpio 2>;
-        pin_2 = <&gpio 3>;
-        pin_3 = <&gpio 4>;
-        pin_4 = <&gpio 5>;
-        pin_5 = <&gpio 6>;
-        pin_6 = <&gpio 7>;
-        pin_7 = <&gpio 8>;
-        pin_8 = <&gpio 9>;
-        pin_9 = <&gpio 10>;
-        pin_10 = <&gpio 11>;
-        pin_11 = <&gpio 12>;
-        pin_12 = <&gpio 13>;
-        pin_13 = <&gpio 14>;
-        pin_14 = <&gpio 15>;
-        pin_15 = <&gpio 16>;
-        pin_16 = <&gpio 17>;
-        pin_17 = <&gpio 18>;
+        pin_1 = <&gpio0 2>;
+        pin_2 = <&gpio0 3>;
+        pin_3 = <&gpio0 4>;
+        pin_4 = <&gpio0 5>;
+        pin_5 = <&gpio0 6>;
+        pin_6 = <&gpio0 7>;
+        pin_7 = <&gpio0 8>;
+        pin_8 = <&gpio0 9>;
+        pin_9 = <&gpio0 10>;
+        pin_10 = <&gpio0 11>;
+        pin_11 = <&gpio0 12>;
+        pin_12 = <&gpio0 13>;
+        pin_13 = <&gpio0 14>;
+        pin_14 = <&gpio0 15>;
+        pin_15 = <&gpio0 16>;
+        pin_16 = <&gpio0 17>;
+        pin_17 = <&gpio0 18>;
     };
 
     // Bluetooth Setup
-    bt_pins = <&gpio 1>, <&gpio 19>; // Example GPIO pins for Bluetooth module
-    bt_reset_pin = <&gpio 20>; // Pin for resetting Bluetooth
+    bt_pins = <&gpio0 1>, <&gpio0 19>; // Example GPIO pins for Bluetooth module
+    bt_reset_pin = <&gpio0 20>; // Pin for resetting Bluetooth
 
     bt_config {
-        pairing_button_pin = <&gpio 4>; // Pin for Bluetooth pairing button
-        reset_button_pin = <&gpio 5>; // Pin for Bluetooth reset button
+        pairing_button_pin = <&gpio0 4>; // Pin for Bluetooth pairing button
+        reset_button_pin = <&gpio0 5>; // Pin for Bluetooth reset button
     };
     
     // Other configurations specific to your board
