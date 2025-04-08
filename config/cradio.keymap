@@ -28,17 +28,6 @@
         pin_16 = <&gpio0 17>;
         pin_17 = <&gpio0 18>;
     };
-
-    // Bluetooth Setup
-    bt_pins = <&gpio0 1>, <&gpio0 19>; // Example GPIO pins for Bluetooth module
-    bt_reset_pin = <&gpio0 20>; // Pin for resetting Bluetooth
-
-    bt_config {
-        pairing_button_pin = <&gpio0 4>; // Pin for Bluetooth pairing button
-        reset_button_pin = <&gpio0 5>; // Pin for Bluetooth reset button
-    };
-    
-    // Other configurations specific to your board
 };
 
 /{
