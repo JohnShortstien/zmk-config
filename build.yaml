@@ -1,21 +1,6 @@
-build:
-  # Path to ZMK app source
-  source: zmk/app
-
-  # Left Side build settings
-  left:
-    board: nice_nano
+---
+include:
+  - board: nice_nano
     shield: cradio_left
-    config:
-      - config/cradio_left.conf # Left side configuration
-    extra_modules:
-      - /__w/zmk-config/zmk-config
-
-  # Right Side build settings
-  right:
-    board: nice_nano
+  - board: nice_nano
     shield: cradio_right
-    config:
-      - config/cradio_right.conf # Right side configuration
-    extra_modules:
-      - /__w/zmk-config/zmk-config
