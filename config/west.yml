@@ -11,7 +11,7 @@ manifest:
     - name: zmk-config
       remote: zmkfirmware
       revision: main
-      path: config # This would point to your custom configuration directory
+      path: zmk-config # This would point to your custom configuration directory
 
   self:
     path: config
