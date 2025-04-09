@@ -7,11 +7,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    # Define any additional modules you want to include in your build
-    - name: zmk-config
-      remote: zmkfirmware
-      revision: main
-      path: zmk-config # This would point to your custom configuration directory
-
   self:
-    path: config
+    path: zmk-config
