@@ -10,23 +10,23 @@
 
     // Define GPIO pins for each key
     key_pins {
-        pin_1 = <&gpio0 2>;
-        pin_2 = <&gpio0 3>;
-        pin_3 = <&gpio0 4>;
-        pin_4 = <&gpio0 5>;
-        pin_5 = <&gpio0 6>;
-        pin_6 = <&gpio0 7>;
-        pin_7 = <&gpio0 8>;
-        pin_8 = <&gpio0 9>;
-        pin_9 = <&gpio0 10>;
-        pin_10 = <&gpio0 11>;
-        pin_11 = <&gpio0 12>;
-        pin_12 = <&gpio0 13>;
-        pin_13 = <&gpio0 14>;
-        pin_14 = <&gpio0 15>;
-        pin_15 = <&gpio0 16>;
-        pin_16 = <&gpio0 17>;
-        pin_17 = <&gpio0 18>;
+        pin_1 = <&gpio0 4>;
+        pin_2 = <&gpio0 1>;
+        pin_3 = <&gpio0 0>;
+        pin_4 = <&gpio0 2>;
+        pin_5 = <&gpio0 3>;
+        pin_6 = <&gpio0 8>;
+        pin_7 = <&gpio0 7>;
+        pin_8 = <&gpio0 5>;
+        pin_9 = <&gpio0 6>;
+        pin_10 = <&gpio0 15>;
+        pin_11 = <&gpio0 31>;
+        pin_12 = <&gpio0 9>;
+        pin_13 = <&gpio0 30>;
+        pin_14 = <&gpio0 29>;
+        pin_15 = <&gpio0 14>;
+        pin_16 = <&gpio0 16>;
+        pin_17 = <&gpio0 10>;
     };
 };
 
