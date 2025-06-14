@@ -1,0 +1,29 @@
+/ {
+    compatible = "zmk,keyboard";
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-directgpio";
+        input-gpios = <
+            &gpio0 15
+            &gpio0 19
+            &gpio0 6
+            &gpio0 0
+            &gpio0 3
+            &gpio0 8
+            &gpio0 7
+            &gpio0 5
+            &gpio0 10
+            &gpio0 1
+            &gpio0 31
+            &gpio0 9
+            &gpio0 30
+            &gpio0 29
+            &gpio0 14
+            &gpio0 16
+            &gpio0 2
+        >;
+        debounce-press-ms = <5>;
+        debounce-release-ms = <5>;
+    };
+};
+
