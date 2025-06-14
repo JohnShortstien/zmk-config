@@ -10,8 +10,8 @@
 
     // Define GPIO pins for each key
     key_pins {
-        pin_1 = <&gpio0 19>;
-        pin_2 = <&gpio0 15>;
+        pin_1 = <&gpio0 15>;
+        pin_2 = <&gpio0 19>;
         pin_3 = <&gpio0 0>;
         pin_4 = <&gpio0 6>;
         pin_5 = <&gpio0 3>;
