@@ -18,7 +18,7 @@
         pin_6 = <&gpio0 8>;
         pin_7 = <&gpio0 7>;
         pin_8 = <&gpio0 5>;
-        pin_9 = <&gpio0 2>;
+        pin_9 = <&gpio0 10>;
         pin_10 = <&gpio0 15>;
         pin_11 = <&gpio0 31>;
         pin_12 = <&gpio0 9>;
@@ -26,10 +26,10 @@
         pin_14 = <&gpio0 29>;
         pin_15 = <&gpio0 14>;
         pin_16 = <&gpio0 16>;
-        pin_17 = <&gpio0 10>;
+        pin_17 = <&gpio0 2>;
     };
 };
-
+g
 /{
     behaviors {
         ht: hold_tap {
