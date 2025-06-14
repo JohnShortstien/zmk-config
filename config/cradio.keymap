@@ -29,7 +29,7 @@
         pin_17 = <&gpio0 2>;
     };
 };
-g
+
 /{
     behaviors {
         ht: hold_tap {
